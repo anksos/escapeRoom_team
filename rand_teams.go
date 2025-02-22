@@ -8,7 +8,6 @@ import (
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
-	// Define the players
 	players := []string{
 		"Veronika",
 		"Roberta",
