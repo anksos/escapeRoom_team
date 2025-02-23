@@ -25,11 +25,11 @@ func main() {
 	teamBA, teamBB := createTeams(shufflePlayers(players))
 
 	fmt.Println("Group 1:")
-	fmt.Println("Team AA:", teamAA)
-	fmt.Println("Team AB:", teamAB)
+	fmt.Println("The Star Element:", teamAA)
+	fmt.Println("Apocalypse Zombie 2213:", teamAB)
 	fmt.Println("Group 2:")
-	fmt.Println("Team BA:", teamBA)
-	fmt.Println("Team BB:", teamBB)
+	fmt.Println("Moriarty's Phantom Trap 1:", teamBA)
+	fmt.Println("Moriarty's Phantom Trap 2:", teamBB)
 }
 
 func shufflePlayers(players []string) []string {
