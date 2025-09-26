@@ -14,7 +14,6 @@ func main() {
 		"Jiri",
 		"Filip",
 		"Prokhor",
-		"Alper",
 		"Anastasis",
 		"Kyrylo",
 	}
@@ -22,14 +21,10 @@ func main() {
 	rand.NewSource(time.Now().UnixNano())
 	shuffledPlayers := shufflePlayers(players)
 	teamAA, teamAB := createTeams(shuffledPlayers)
-	teamBA, teamBB := createTeams(shufflePlayers(players))
 
-	fmt.Println("Group 1:")
-	fmt.Println("The Star Element:", teamAA)
-	fmt.Println("Apocalypse Zombie 2213:", teamAB)
-	fmt.Println("Group 2:")
-	fmt.Println("Moriarty's Phantom Trap 1:", teamBA)
-	fmt.Println("Moriarty's Phantom Trap 2:", teamBB)
+	fmt.Println("Let's make sure we do it fair and square and good luck on hunting ghosts!!!")
+	fmt.Println("The Haunted House", teamAA)
+	fmt.Println("The Haunted House 2", teamAB)
 }
 
 func shufflePlayers(players []string) []string {
