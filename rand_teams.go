@@ -8,7 +8,6 @@ import (
 
 func main() {
 	players := []string{
-		"Veronika",
 		"Roberta",
 		"Felipe",
 		"Jiri",
